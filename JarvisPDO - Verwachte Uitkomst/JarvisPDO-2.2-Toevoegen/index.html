@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Netland! - Films</title>
+</head>
+
+<body class="bg-gray-900 text-white h-screen w-screen">
+    <h1 class="flex justify-center text-3xl font-bold pt-5">Nieuwe film</h1>
+    <div class="flex flex-col">
+        <form action="#" method="post">
+
+            <label for="Titel" class="pr-4 pl-5 font-bold text-xl">Titel</label>
+            <input class="bg-blue-600 ml-36" type="text" name="Titel">
+        </form>
+
+        <form action="#" method="post">
+            <div class="pt-2">
+                <label for="Duur" class="pr-4 pl-4 font-bold text-xl">Duur</label>
+                <input class="bg-blue-600 ml-36" type="text" name="Duur">
+            </div>
+        </form>
+
+        <form action="#" method="post">
+            <div class="pt-2">
+                <label for="Datum" class="pr-4 pl-4 font-bold text-xl">Datum van uitkomst</label>
+                <input class="bg-blue-600 ml-0.25" type="text" name="Datum">
+            </div>
+        </form>
+
+        <form action="#" method="post">
+            <div class="pt-2">
+                <label for="Land" class="pr-8.5 pl-4 font-bold text-xl">Land van uitkomst</label>
+                <input class="bg-blue-600 ml-8" type="text" name="Land">
+            </div>
+        </form>
+
+        <form action="#" method="post">
+            <div class="pt-5">
+                <label for="Omschrijving" class="pr-8.5 pl-4 font-bold text-xl">Omschrijving</label>
+                <textarea name="Omschrijving" class="bg-blue-600 ml-20" value="" cols="20" rows="5"></textarea>
+            </div>
+        </form>
+
+
+        <form action="#" method="post">
+            <div class="pt-5">
+                <label for="YouTube" class="pr-8.5 pl-4 font-bold text-xl">YouTube trailer ID</label>
+                <input class="bg-blue-600 ml-9" type="text" name="YouTube" value="">
+            </div>
+
+            <input type="submit" value="Aanmaken" class="bg-blue-600 color-white mt-6 ml-4 w-20">
+        </form>
+
+    </div>
+    <a href="#" class="mt-2 text-white bg-blue-600 w-20 text-center ml-4 mt-10" id="previous">&laquo; Terug</a>
+</body>
+
+</html>
